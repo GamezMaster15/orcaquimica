@@ -711,12 +711,12 @@
                     content: "input",
                 })
                 .then((value) => {
-                    if (value == "") {
+                    if (value == undefined) {
                         swal('No puedes acceder a la pagina si correo electronico')
                         window.close();
-                    }
+                    }else{
                     swal(`Tu correo electronico: ${value}`);
-
+		    }
                 });
 
             </script>
