@@ -1915,7 +1915,10 @@ hr {
   visibility: visible;
   opacity: 1;
   top: 100%; }
-
+.error{
+  color: #dc3545;
+  font-weight: bold;
+}
 .get-btn {
   padding: 28px 30px;
   background: #f27420;
