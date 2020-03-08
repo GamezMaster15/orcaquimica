@@ -718,7 +718,7 @@
                         swal("Ingresa Tu Nombre y Apellido", {
                         content: "input"
                         }).then((value) => {
-                            if (value == "") {
+                            if (value == "" || value == " ") {
                                 swal('Para ser Proveedor necesitamos tu nombre y apellido');
                             }else{
                                 swal('Ingresa Tu Correo Electronico',{
